@@ -1,0 +1,102 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0cd038e8-b63b-44b3-acc1-0090c75f2954": {
+        "id": "0cd038e8-b63b-44b3-acc1-0090c75f2954",
+        "parent": null,
+        "name": "testAPIs2-induu_may1333.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testAPIs2-induu_may1333.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 53
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "testAPIs2Induumay1333"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameindunilqatstany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "0cd038e8-b63b-44b3-acc1-0090c75f2954"
+    ],
+    "currentFileId": "0cd038e8-b63b-44b3-acc1-0090c75f2954",
+    "resources": {
+      "apigusEast1sachithraAPInameindunilqatstany": {
+        "name": "apigusEast1sachithraAPInameindunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test1g",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testAPIs2-induu_may1333",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1589364953982
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testapis2-induu_may1333",
+      "url": "https://github.com/Indunil1992/testapis2-induu_may1333"
+    }
+  }
+}
