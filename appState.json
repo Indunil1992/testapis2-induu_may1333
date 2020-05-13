@@ -12,7 +12,7 @@
         "filePath": "testAPIs2-induu_may1333.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 53
+          "column": 54
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -27,7 +27,16 @@
             "resourceName": "apigusEast1sachithraAPInameindunilqatstany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "49408881-1b8b-45b9-8dd0-7b1b93773a78": {
+            "id": "49408881-1b8b-45b9-8dd0-7b1b93773a78",
+            "name": "Test event",
+            "functionId": "0cd038e8-b63b-44b3-acc1-0090c75f2954",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -90,7 +99,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1589364953982
+    "lastSave": 1589365287670
   },
   "VCS_STATE": {
     "provider": "GitHub",
