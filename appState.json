@@ -12,7 +12,7 @@
         "filePath": "testAPIs2-induu_may1333.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 54
+          "column": 53
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -24,7 +24,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1sachithraAPInameindunilqatstany",
+            "resourceName": "apigusEast1sachithraAPInameindunfdfdfilqatstany",
             "config": {}
           }
         ],
@@ -70,6 +70,33 @@
           "stageName": "test1g",
           "mode": 1
         }
+      },
+      "apigusEast1sachithraAPInameindunfdfdfilqatstany": {
+        "name": "apigusEast1sachithraAPInameindunfdfdfilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "indunfdfdfil/qa/tst",
+          "resourcePath": "/indunfdfdfil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test1ggf",
+          "mode": 1
+        }
       }
     },
     "customTemplate": {
@@ -99,7 +126,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1589365287670
+    "lastSave": 1589365600112
   },
   "VCS_STATE": {
     "provider": "GitHub",
